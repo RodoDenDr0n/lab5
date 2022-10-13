@@ -5,7 +5,7 @@ import flowers.Flower;
 public class FlowerPack {
     private Flower flower;
     private int amount;
-    public int getPrice() {
+    public double getPrice() {
         return flower.getPrice() * amount;
     }
 }

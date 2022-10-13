@@ -11,6 +11,8 @@ public class Flower {
     private double sepalLength;
     @Getter
     private double price;
+    @Getter
+    private FlowerType flowerType;
 
     public Flower() {}
     public String getColor() {
