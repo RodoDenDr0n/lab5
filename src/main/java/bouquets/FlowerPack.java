@@ -2,6 +2,9 @@ package bouquets;
 
 import flowers.Flower;
 
+/**
+ * Flower pack is a group of flowers.
+ */
 public class FlowerPack {
     private Flower flower;
     private int quantity;

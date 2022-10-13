@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Flower is flower :3
+ */
 @Setter @AllArgsConstructor
 public class Flower {
     private FlowerColor color;
