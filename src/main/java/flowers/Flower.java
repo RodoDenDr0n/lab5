@@ -11,11 +11,9 @@ public class Flower {
     private double sepalLength;
     @Getter
     private double price;
-    public FlowerColor getColor() {
-        return color.toString();
-    }
 
-    public void setColor(FlowerColor color) {
-        this.color = color;
+    public Flower() {}
+    public String getColor() {
+        return color.toString();
     }
 }
